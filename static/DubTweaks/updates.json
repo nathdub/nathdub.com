@@ -1,0 +1,16 @@
+{
+  "addons": {
+    "{47623ad7-76ac-40fa-bf8b-44b6148fdc6e}": {
+      "updates": [
+        {
+          "version": "1.0",
+          "update_link": "https://nathdub.com/DubTweaks/releases/1.0.xpi"
+        },
+        {
+          "version": "1.1",
+          "update_link": "https://nathdub.com/DubTweaks/releases/1.1.xpi"
+        }
+      ]
+    }
+  }
+}

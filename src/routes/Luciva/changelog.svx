@@ -1,0 +1,49 @@
+## 1.2.2 - 08/08/25
+- YouTube
+  - Fix Remove home feed qui supprimait tout sur toutes les pages
+## 1.2.1 - 08/08/25
+- Instagram
+  - Optimisations, l'impact de l'extension sur les performances devrait maintenant être mineur
+- YouTube
+  - Optimisations, l'impact de l'extension sur les performances devrait maintenant être mineur
+## 1.2.0 - 07/08/25
+- YouTube
+  - \+ **Remove home feed**
+  - \+ **Remove shorts in home feed**
+  - \+ **Remove home page thumbnails**
+  - \+ **Remove all top header**
+  - \+ **Remove search bar**
+  - \+ **Remove shorts in search results**
+  - \+ **Remove thumbnails in search results**
+  - \+ **Remove logo**
+  - \+ **Remove notifications**
+  - \+ **Remove all left section**
+  - \+ **Remove you section**
+  - \+ **Remove subscriptions**
+  - \+ **Remove explore**
+  - \+ **Remove bloat**
+  - \+ **Remove all video sidebar**
+  - \+ **Remove recommended**
+  - \+ **Remove recommended videos thumbnails**
+  - \+ **Remove live chat**
+  - \+ **Remove fundraiser**
+  - \+ **Remove playlist**
+  - \+ **Unclickable channel**
+  - \+ **Remove description**
+  - \+ **Remove comments**
+  - \+ **Remove autoplay**
+  - \+ **Remove end screen links**
+  - \+ **Remove end screen recommended videos**
+  - \+ **Redirect shorts to videos**
+  - \+ **Remove channel page**
+  - \+ **Black and white filter**
+## 1.1 - 04/08/25
+- fix bug mineur navbar
+## 1.0 - 04/08/25
+- Instagram 
+  - \+ **Force DM page**
+  - \+ **Force followed feed**
+  - \+ **Remove stories**
+  - \+ **Remove right section**
+  - \+ **Remove distracting left buttons**
+  - \+ **Black and white filter**

@@ -1,0 +1,19 @@
+## 1.1 - 04/08/25
+- Ajout d'un changelog
+- Version de l'extension dans la navbar de la popup, avec redirection sur ce lien quand cliqué
+- Compact Moodle
+  - Application plus rapide
+- Moodle redirect to my courses
+  - Redirecting plus rapide
+- Google Tabs Order
+  - Organisation plus rapide
+- Force Google Language
+  - Redirecting *beaucoup* plus rapide, de plusieurs secondes à virtuellement instantané
+  - Possibilité de changer de langue après avoir déjà chargé une langue
+  - Possibilité de retirer la langue en décochant la checkbox et rechargeant la page
+## 1.0 - 29/07/25
+- \+ **Moodle redirect to my courses**
+- \+ **Compact Moodle**
+- \+ **Force Google Language**
+- \+ **Google Tabs Order**
+
