@@ -1,5 +1,5 @@
 <script lang="ts">
-	import LatestReleaseButton from '../../components/latest-release-button.svelte';
+	import LatestReleaseButton from '$lib/components/latest-release-button.svelte';
 	// @ts-ignore
 	import Content from './content.svx';
 </script>
