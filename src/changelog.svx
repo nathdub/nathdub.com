@@ -60,4 +60,4 @@
 
 - \+ **Marks Calculator**
 
-<style>@import './routes/changelog/styles.css';</style>
+<style>@import './routes/changelog/style.css';</style>
