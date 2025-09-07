@@ -19,6 +19,7 @@
 	:global(body) {
 		font-family: sans-serif;
 		margin: 0;
+		background-color: white ;
 	}
 
 	main {

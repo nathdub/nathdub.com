@@ -1,0 +1,46 @@
+## Features
+
+### Moodle
+
+- Moodle redirect to my courses
+  - Vous envoie directement sur la partie mes cours de moodle afin de gagner en temps. (avoir une liste plus compact et plus rapide)
+  - Permet de fixer le problème que Moodle nous déconnecte parfois et qu'il faille recliquer sur le bouton Log In
+  - Pour une expérience optimale, je vous recommende vivement de mettre les cours que vous avez actuellement en favoris et de sélectionner seulement les cours en favoris avec la vue Carte comme sur le screen ci-dessous.
+
+<img src="/images/DubTweaks/moodle1.1.png" width="38%"/>
+<img src="/images/DubTweaks/arrow.png" width="9%"/>
+<img src="/images/DubTweaks/moodle1.2.png" width="48%"/>
+
+
+- Compact Moodle
+  - Alors bon ici rien de compliqué mais un game changer selon moi, permet de retirer l'espace ridicule entre chaque élément.
+  - Permet aussi de bien mieux comprendre l'arborescence des éléments.
+  - Je vous conseille un zoom de 80% sur le navigateur en plus pour une expérience encore plus compacte
+
+<img src="/images/DubTweaks/moodle2.1.png" width="40%"/>
+<img src="/images/DubTweaks/arrow.png" width="10%"/>
+<img src="/images/DubTweaks/moodle2.2.png" width="40%"/>
+
+
+### Google
+
+- Force Google Language
+  - Force la langue d'affichage de Google dans une certaine langue.
+  - Utile par exemple pour éviter d'avoir l'interface en néerlandais quand on est pas connecté.
+  - Il n'est pas très difficile de la mettre normalement en français dans les paramètres mais c'est assez fastidieux si on fait souvent des recherches en navigation privée (l'interface est souvent en néerlandais).
+
+
+- Google Tabs Order
+  - Permet de chosir l'ordre dans lequel les onglets google s'affichent (genre les images notament).
+  - Cela permet d'éviter que l'on clique sur le premier onglet en pensant que c'est les images comme la plupart du temps et de sse retrouver sur la partie produits ou jsp quelle autre merdre inutile.
+  - A l'époque ca ne bougeait jamais si je ne dis pas de bêtises, ça fait que quelques années que c'est comme ça et ça me rends fou depuis.
+  - Customisable, il suffit de rentrer l'ordre des onglets (sans erreur bien évidemment) et ceux si s'afficheront dans l'ordre escompté. L'ordre doit être écrit sous le format :Onglet1, Onglet2, Onglet3 (pas case-sensitive et pas besoin de mettre des ' ')
+  - De plus, pas besoin de mettre tous les onglets, ça va juste mettre ceux qui sont dans la config et sur la page au début. (donc si jamais il y en a qui manquent dans la config ou surgoogle, ça crash pas)
+  - Il peut être intéressant de mettre plusieurs langues dans la config si google s'affiche dans des langues différentes.
+  - Par exemple pour la config : Tous, All, Images, Vidéos, Videos, Actualités, News
+
+<img src="/images/DubTweaks/google2.1.png" width="40%"/>
+<img src="/images/DubTweaks/arrow.png" width="10%"/>
+<img src="/images/DubTweaks/google2.2.png" width="40%"/>
+
+<style>@import './style.css';</style>
