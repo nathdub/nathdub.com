@@ -11,6 +11,8 @@
   - fix: fonctionne maintenant avec les polices avec un espace
 - Luciva & dub Tweaks
   - bouton de téléchargement pointe désormais systématiquement vers la dernière version et indique la version
+- SoundBoard
+  - Possibilité désormais de spammer les boutons pour avoir plusieurs lectures en simultané
 
 # 2.6 - 04/08/25
 

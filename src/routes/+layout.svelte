@@ -1,6 +1,6 @@
 <script lang="ts">
 	import favicon from '$lib/assets/dub.ico';
-	import Navbar from '../components/navbar.svelte';
+	import Navbar from '$lib/components/navbar.svelte';
 
 	let { children } = $props();
 </script>
@@ -9,7 +9,7 @@
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
-<Navbar/>
+<Navbar />
 
 <main>
 	{@render children?.()}
@@ -19,7 +19,7 @@
 	:global(body) {
 		font-family: sans-serif;
 		margin: 0;
-		background-color: white ;
+		background-color: white;
 	}
 
 	main {
