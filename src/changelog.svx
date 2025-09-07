@@ -1,0 +1,63 @@
+# 3.0.0 - ???
+
+- Refactoring complet, le site est maintenant entièrement codé en Svelte
+- Implémentation de JS routing (chargement initial légèrement plus lent mais navigation plus rapide)
+- Préchargement des liens par hover dessus
+- \+ page 404
+- Changelog
+  - désormais plus joli
+- Fancy Message
+  - rainbow plus fluide
+  - fix: fonctionne maintenant avec les polices avec un espace
+- Luciva & dub Tweaks
+  - bouton de téléchargement pointe désormais systématiquement vers la dernière version et indique la version
+
+# 2.6 - 04/08/25
+
+- \+ **Luciva**
+- dub Tweaks
+  - ajout d'un changelog
+- SoundBoard
+  - \+ `among us`, `metal pipe`, `tooning`, `pufferfish`, `oof`, `minecraft damage`, `refrigirators`, `stop it get some help`, `sleep`, `borgir`
+
+# 2.5 - 29/07/25
+
+- \+ **dub Tweaks**
+
+# 2.4 - 14/07/25
+
+- \+ **Crazy Paint**
+- \+ **Feedback**
+
+# 2.3 - 09/07/25
+
+- \+ **Let Me Search This For You**
+- Follow Me On Wikipedia
+  - s'ouvre maintenant dans un nouvel onglet
+- SoundBoard
+  - \+ `foutus`, `eh les mecs`, `wenomechainsama`, `door stuck`, `let's go`, `nintendo 64`, `oh la vache`, `ok i pull up`, `wilhelm scream`
+
+# 2.2 - 02/07/25
+
+- \+ **Follow Me On Wikipedia**
+- \+ **Fancy Message**
+- SoundBoard
+  - \+ `bonjour ici dub`, `eh oui`, `dubitatif`
+
+# 2.1 - 01/07/25
+
+- Site hébergé sur nathdub.com
+
+# 2.0 - 30/06/25
+
+- Refactoring
+- \+ **SoundBoard**
+- \+ **Navbar**
+- \+ **Changelog**
+- \+ **Calculator** avec un joli écran en span CSS
+
+# 1.0 - 23/04/24
+
+- \+ **Marks Calculator**
+
+<style>@import './routes/changelog/styles.css';</style>
