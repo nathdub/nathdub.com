@@ -1,4 +1,5 @@
 <script lang="ts">
+	// @ts-ignore
 	import Changelog from '../../changelog.svx';
 </script>
 
