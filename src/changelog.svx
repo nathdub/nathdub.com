@@ -4,6 +4,7 @@
 - Implémentation de JS routing (chargement initial légèrement plus lent mais navigation plus rapide)
 - Préchargement des liens par hover dessus
 - \+ page 404
+- Le site est désormais responsive (s'affiche correctement même sur téléphone)
 - Changelog
   - désormais plus joli
 - Fancy Message
