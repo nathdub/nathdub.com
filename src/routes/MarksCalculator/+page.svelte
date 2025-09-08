@@ -130,7 +130,7 @@
 <div class="main-container">
 	<div class="inputs">
 		<MarksList {marks} {removeMark} />
-		<button class="add-mark" onclick={addMark}>Add Mark</button>
+		<button class="add-mark" onclick={addMark}>Ajouter une note</button>
 	</div>
 
 	<div class="output">
