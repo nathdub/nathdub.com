@@ -15,5 +15,11 @@
 		padding: 2rem;
 		font-family: 'Segoe UI', sans-serif;
 		color: #333;
+		padding: 0;
+	}
+
+	h1 {
+		white-space: nowrap;
+		font-size: clamp(5px, 7vw, 2.125rem);
 	}
 </style>
