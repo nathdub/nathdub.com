@@ -13,6 +13,12 @@
   - bouton de téléchargement pointe désormais systématiquement vers la dernière version et indique la version
 - SoundBoard
   - Possibilité désormais de spammer les boutons pour avoir plusieurs lectures en simultané
+- Marks Calculator
+  - nouvelle interface plus facile d'utilisation
+  - inputs plus indulgents
+  - calcule dynamiquement les notes sans avoir à appuyer sur un bouton
+  - affiche une erreur quand un input est manquant ou incorrect par exemple
+  - affiche un warning quand les inputs sont abbérants
 
 # 2.6 - 04/08/25
 
