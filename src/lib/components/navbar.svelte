@@ -13,11 +13,14 @@
 		justify-content: space-between;
 		background-color: teal;
 		padding: 0.4rem 1rem;
+		align-items: center;
 	}
 
 	nav {
 		display: flex;
 		gap: 1rem;
+		flex-shrink: 1;
+		min-width: 0;
 	}
 
 	.nav-link {
@@ -31,5 +34,32 @@
 
 	.dub-version {
 		color: rgb(255, 137, 220);
+		font-family: monospace;
+		white-space: nowrap;
+		font-size: 1rem;
+	}
+
+	@media (max-width: 435px) {
+		.dub-version {
+			font-size: 13px
+		}
+	}
+
+	@media (max-width: 410px) {
+		nav {
+			gap: 0.5rem;
+		}
+	}
+
+	@media (max-width: 390px) {
+		header {
+			padding: 0.4rem 0.5rem;
+		}
+	}
+
+	@media (max-width: 360px) {
+		.dub-version {
+			font-size: 10px;
+		}
 	}
 </style>
