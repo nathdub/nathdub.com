@@ -59,7 +59,7 @@
 		let correctMarks = 0;
 		for (const [index, mark] of marks.entries()) {
 			if (mark.note === '' && mark.weight === '') {
-				warnings.push(`La note ${index + 1} est vide, cette note sera ignorée`);
+				if (marks.length > 1) warnings.push(`La note ${index + 1} est vide, cette note sera ignorée`);
 			} else if (mark.note && !regex.test(mark.note)) {
 				errors.push(`La note entrée "${mark.note}" de la note ${index + 1} possède des caractères illégaux`);
 			} else if (mark.weight && !regex.test(mark.weight)) {
