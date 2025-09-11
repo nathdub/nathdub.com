@@ -190,7 +190,7 @@
 		padding: 10px;
 		box-sizing: border-box;
 
-		background: ghostwhite;
+		background: floralwhite;
 		border: 1px black solid;
 		border-radius: 1rem;
 		box-shadow: 0 0 20px grey;
@@ -225,5 +225,14 @@
 	button {
 		border-radius: 1rem;
 		cursor: pointer;
+		background: ghostwhite;
+		translate: 0 -5px;
+		box-shadow: 0 5px black;
+		transition: ease-in-out 0.1s;
+	}
+
+	button:active {
+		box-shadow: none;
+		translate: 0;
 	}
 </style>
