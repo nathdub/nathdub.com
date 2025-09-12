@@ -1,0 +1,113 @@
+:global(:root) {
+	/* Light theme (default) */
+	--bg-color: white;
+	--bg-color-2: rgb(233, 233, 233);
+	--bg-color-3: rgb(214, 214, 214);
+	--bg-color-4: rgb(148, 148, 148);
+	--bg-color-5: rgb(87, 87, 87);
+	--bg-color-6: rgb(39, 39, 39);
+	--text-color: #131313;
+	--text-color-2: #2e2e2e;
+	--text-color-3: #464646;
+	--text-inv-color: white;
+	--accent-color: teal;
+	--nav-text-color: white;
+	--nav-text-hover-color: yellow;
+	--nav-dub-color: rgb(255, 137, 220);
+	--field-color: #f0f0f0;
+	--field-hover-color: #e0e0e0;
+	--field-disabled-color: #e0e0e0;
+	--red-color: rgb(255, 45, 45);
+	--red-hover-color: rgb(204, 42, 42);
+	--green-color: rgb(15, 211, 15);
+	--green-hover-color: rgb(0, 180, 0);
+	--blue-color: rgb(65, 147, 255);
+	--blue-hover-color: rgb(57, 103, 255);
+	--pink-color: pink;
+	--pink-hover-color: rgb(235, 164, 176);
+	--orange-color: rgb(255, 189, 67);
+	--orange-hover-color: orange;
+	--yellow-color: rgb(255, 255, 112);
+	--yellow-hover-color: yellow;
+	--purple-color: rgb(187, 2, 187);
+	--purple-hover-color: purple;
+	--border-color: #ccc;
+	--home-link-color: red;
+	--home-link-hover-color: brown;
+}
+
+:global(.dark-theme) {
+	/* Dark theme */
+	--bg-color: #1a1a1a;
+	--bg-color-2: #2d2d2d;
+	--bg-color-3: #404040;
+	--bg-color-4: #666666;
+	--bg-color-5: #8a8a8a;
+	--bg-color-6: #b8b8b8;
+	--text-color: #e0e0e0;
+	--text-color-2: #c0c0c0;
+	--text-color-3: #a0a0a0;
+	--text-inv-color: #1a1a1a;
+	--accent-color: #00cccc;
+	--nav-text-color: #e0e0e0;
+	--nav-text-hover-color: #ffff88;
+	--nav-dub-color: #ff69b4;
+	--field-color: #2d2d2d;
+	--field-hover-color: #404040;
+	--field-disabled-color: #333333;
+	--red-color: #ff6b6b;
+	--red-hover-color: #ff5252;
+	--green-color: #4caf50;
+	--green-hover-color: #45a049;
+	--blue-color: #64b5f6;
+	--blue-hover-color: #42a5f5;
+	--pink-color: #f48fb1;
+	--pink-hover-color: #ec407a;
+	--orange-color: #ffb74d;
+	--orange-hover-color: #ffa726;
+	--yellow-color: #fff176;
+	--yellow-hover-color: #ffee58;
+	--purple-color: #ba68c8;
+	--purple-hover-color: #ab47bc;
+	--border-color: #555555;
+	--home-link-color: #ff6b6b;
+	--home-link-hover-color: #ff5252;
+}
+
+:global(.matrix-theme) {
+	/* Matrix theme */
+	--bg-color: #000000;
+	--bg-color-2: #0d0d0d;
+	--bg-color-3: #1a1a1a;
+	--bg-color-4: #003300;
+	--bg-color-5: #004d00;
+	--bg-color-6: #006600;
+	--text-color: #00ff00;
+	--text-color-2: #00cc00;
+	--text-color-3: #009900;
+	--text-inv-color: #000000;
+	--accent-color: #00ff41;
+	--nav-text-color: #00ff00;
+	--nav-text-hover-color: #00ffff;
+	--nav-dub-color: #ff0080;
+	--field-color: #001100;
+	--field-hover-color: #002200;
+	--field-disabled-color: #111111;
+	--red-color: #ff0040;
+	--red-hover-color: #cc0033;
+	--green-color: #00ff41;
+	--green-hover-color: #00cc33;
+	--blue-color: #0080ff;
+	--blue-hover-color: #0066cc;
+	--pink-color: #ff0080;
+	--pink-hover-color: #cc0066;
+	--orange-color: #ff8000;
+	--orange-hover-color: #cc6600;
+	--yellow-color: #ffff00;
+	--yellow-hover-color: #cccc00;
+	--purple-color: #8000ff;
+	--purple-hover-color: #6600cc;
+	--border-color: #003300;
+	--home-link-color: #00ff41;
+	--home-link-hover-color: #00cc33;
+}

@@ -1,19 +1,33 @@
+<script lang="ts">
+	import ThemeButton from './theme-button.svelte';
+</script>
+
 <header>
 	<nav>
 		<a class="nav-link" href="/">Home</a>
 		<a class="nav-link" href="/changelog/">Changelog</a>
 		<a class="nav-link" href="https://forms.gle/hP9qgyb9x2j5U38PA">Feedback</a>
 	</nav>
-	<span class="dub-version">nathdub.com - 3.0.0</span>
+	<div class="header-right">
+		<ThemeButton />
+		<span class="dub-version">nathdub.com - 3.0.0</span>
+	</div>
 </header>
 
 <style>
 	header {
 		display: flex;
 		justify-content: space-between;
-		background-color: teal;
+		background-color: var(--accent-color);
 		padding: 0.4rem 1rem;
 		align-items: center;
+		transition: 0.3s;
+	}
+
+	.header-right {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
 	}
 
 	nav {
@@ -24,16 +38,16 @@
 	}
 
 	.nav-link {
-		color: white;
+		color: var(--nav-text-color);
 		text-decoration: none;
 	}
 
 	.nav-link:hover {
-		color: yellow;
+		color: var(--nav-text-hover-color);
 	}
 
 	.dub-version {
-		color: rgb(255, 137, 220);
+		color: var(--nav-dub-color);
 		font-family: monospace;
 		white-space: nowrap;
 		font-size: 1rem;
