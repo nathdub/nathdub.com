@@ -48,7 +48,7 @@
 	--text-color-2: #c0c0c0;
 	--text-color-3: #a0a0a0;
 	--text-inv-color: #1a1a1a;
-	--accent-color: #00cccc;
+	--accent-color: rgb(0, 70, 70);
 	--nav-text-color: #e0e0e0;
 	--nav-text-hover-color: #ffff88;
 	--nav-dub-color: #ff69b4;
@@ -87,8 +87,8 @@
 	--text-color-3: #009900;
 	--text-inv-color: #000000;
 	--accent-color: #00ff41;
-	--nav-text-color: #00ff00;
-	--nav-text-hover-color: #00ffff;
+	--nav-text-color: #004200;
+	--nav-text-hover-color: #000000;
 	--nav-dub-color: #ff0080;
 	--field-color: #001100;
 	--field-hover-color: #002200;
