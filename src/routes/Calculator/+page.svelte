@@ -224,6 +224,7 @@
 
 	button {
 		border-radius: 1rem;
+		border: 0.1rem solid grey;
 		cursor: pointer;
 		background: ghostwhite;
 		translate: 0 -5px;

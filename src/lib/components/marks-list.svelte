@@ -29,31 +29,22 @@
 
 	input {
 		flex: 1;
-		min-width: 0;
-		padding: 0.5rem;
-		border: 1px solid #ccc;
-		border-radius: 0.25rem;
-		font-size: 1rem;
+		min-width: 0;	
 	}
 
 	button {
 		flex-shrink: 0; /* empeche de shrink */
 		min-width: 4rem;
-		padding: 0.5rem;
-		background: #f44336;
-		color: white;
-		border: none;
-		border-radius: 0.25rem;
-		font-size: 1rem;
-		cursor: pointer;
+		background: var(--red-color);
+		color: var(--text-inv-color);
 	}
 
 	button:hover:not(:disabled) {
-		background: #d32f2f;
+		background: var(--red-hover-color);
 	}
 
 	button:disabled {
-		background: #ccc;
+		background: var(--field-disabled-color);
 		cursor: not-allowed;
 	}
 

@@ -185,8 +185,8 @@
 
 	.add-mark {
 		padding: 0.75rem;
-		background: #4caf50;
-		color: white;
+		background: var(--green-color);
+		color: var(--text-inv-color);
 		border: none;
 		border-radius: 0.25rem;
 		font-size: 1rem;
@@ -195,7 +195,7 @@
 	}
 
 	.add-mark:hover {
-		background: #45a049;
+		background: var(--green-hover-color);
 	}
 
 	.output {
@@ -215,15 +215,15 @@
 	}
 
 	.warnings {
-		color: yellow;
-		background-color: grey;
-		border: 0.25rem solid yellow;
+		color: var(--yellow-color);
+		background-color: var(--bg-color-4);
+		border: 0.25rem solid var(--yellow-color);
 	}
 
 	.errors {
-		color: red;
-		background-color: grey;
-		border: 0.25rem solid red;
+		color: var(--red-color);
+		background-color: var(--bg-color-4);
+		border: 0.25rem solid var(--red-color);
 	}
 
 	li {
@@ -232,7 +232,7 @@
 
 	.results {
 		padding: 1rem;
-		border: 0.25rem black solid;
+		border: 0.25rem var(--text-color) solid;
 		border-radius: 0.5rem;
 		display: flex;
 		flex-direction: column;

@@ -17,13 +17,13 @@
 
 <style>
 	.home-link {
-		color: brown;
+		color: var(--home-link-color);
 		display: inline-block;
 		transition: ease-in-out 0.25s;
 	}
 
 	.home-link:hover {
-		color: red;
+		color: var(--home-link-hover-color);
 		transform-origin: left;
 		transform: translateX(10px) scale(1.25);
 	}
