@@ -28,6 +28,7 @@
   - Réactif pour marcher sur téléphone
 - Fancy Message
   - Preview automatique sans avoir à cliquer sur un bouton
+- \+ **Cursor Museum**
 
 # 2.6 - 04/08/25
 

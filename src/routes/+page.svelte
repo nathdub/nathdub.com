@@ -12,6 +12,7 @@
 		<li><a class="home-link" href="CrazyPaint/">Crazy Paint</a></li>
 		<li><a class="home-link" href="DubTweaks/">dub Tweaks Browser Extension</a></li>
 		<li><a class="home-link" href="Luciva/">Luciva Productivity Browser Extension</a></li>
+		<li><a class="home-link" href="CursorMuseum/">Cursor Museum</a></li>
 	</ul>
 </div>
 
