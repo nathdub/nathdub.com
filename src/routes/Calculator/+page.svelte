@@ -230,6 +230,7 @@
 		translate: 0 -5px;
 		box-shadow: 0 5px black;
 		transition: ease-in-out 0.1s;
+		color: black;
 	}
 
 	button:active {
