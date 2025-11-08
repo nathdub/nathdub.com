@@ -292,13 +292,13 @@
 
 		<div class="control-item">
 			<label for="grid-height">Pixels in Height</label>
-			<input type="range" id="grid-height" min="2" max="100" bind:value={gridHeight} onchange={handleGridHeightChange} />
+			<input type="range" id="grid-height" min="2" max="100" bind:value={gridHeight} oninput={handleGridHeightChange} />
 			<input type="number" id="grid-height-display" min="2" max="100" bind:value={gridHeight} onchange={handleGridHeightChange} class="range-display" />
 		</div>
 
 		<div class="control-item">
 			<label for="grid-width">Pixels in Width</label>
-			<input type="range" id="grid-width" min="2" max="100" bind:value={gridWidth} onchange={handleGridWidthChange} />
+			<input type="range" id="grid-width" min="2" max="100" bind:value={gridWidth} oninput={handleGridWidthChange} />
 			<input type="number" id="grid-width-display" min="2" max="100" bind:value={gridWidth} onchange={handleGridWidthChange} class="range-display" />
 		</div>
 
@@ -314,11 +314,18 @@
 
 		<div class="control-item">
 			<label for="custom-background">Custom Background Image</label>
-			<input type="file" accept="image/png, image/jpeg" id="custom-background" bind:this={customFileInput} onchange={handleCustomBackground} /> <br />
+			<input
+				type="file"
+				accept="image/png, image/jpeg"
+				id="custom-background"
+				bind:this={customFileInput}
+				onchange={handleCustomBackground}
+				disabled={backgroundType !== 'custom'}
+			/> <br />
 		</div>
 
 		<div class="control-item">
-			<input type="color" id="canvas-color" bind:value={canvasColor} />
+			<input type="color" id="canvas-color" bind:value={canvasColor} disabled={backgroundType !== 'plain'} />
 			<label for="canvas-color">canvas Color</label>
 		</div>
 		<div class="control-item">
@@ -368,15 +375,15 @@
 			<label for="random-tool">Random Tool</label>
 		</div>
 		<div class="control-item">
-			<input type="range" id="random-hue" min="0" max="100" bind:value={randomHue} />
+			<input type="range" id="random-hue" min="0" max="100" bind:value={randomHue} disabled={tool !== 'random'} />
 			<label for="random-hue">Random Hue</label>
 		</div>
 		<div class="control-item">
-			<input type="range" id="random-sat" min="0" max="100" bind:value={randomSat} />
+			<input type="range" id="random-sat" min="0" max="100" bind:value={randomSat} disabled={tool !== 'random'} />
 			<label for="random-sat">Random Saturation</label>
 		</div>
 		<div class="control-item">
-			<input type="range" id="random-light" min="0" max="100" bind:value={randomLight} />
+			<input type="range" id="random-light" min="0" max="100" bind:value={randomLight} disabled={tool !== 'random'} />
 			<label for="random-light">Random Lightness</label>
 		</div>
 	</div>
