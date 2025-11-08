@@ -25,11 +25,16 @@
 <Content />
 
 <style>
-	:global(body.luciva-theme header) {
-		background-color: crimson;
-	}
-
-	:global(body.luciva-theme) {
-		background-color: peachpuff;
+	:global(.luciva-theme) {
+		--bg-color: peachpuff;
+		--bg-color-2: rgb(233, 233, 233);
+		--bg-color-3: rgb(214, 214, 214);
+		--accent-color: crimson;
+		--home-link-color: #00ff41;
+		--home-link-color: brown;
+		--home-link-hover-color: red;
+		--text-color: #131313;
+		--nav-text-color: white;
+		--nav-dub-color: white;
 	}
 </style>

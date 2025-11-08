@@ -14,7 +14,6 @@
 		margin: 0 auto;
 		padding: 2rem;
 		font-family: 'Segoe UI', sans-serif;
-		color: #333;
 		padding: 0;
 	}
 

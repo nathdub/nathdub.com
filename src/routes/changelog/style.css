@@ -1,5 +1,5 @@
 h1 {
-	border-bottom: 2px solid teal;
+	border-bottom: 2px solid var(--accent-color);
 }
 
 ul {
@@ -17,12 +17,12 @@ li {
 }
 
 code {
-	background-color: #f9f9f9;
+	background-color: var(--bg-color-2);
 	padding: 0.2rem 0.4rem;
 	border-radius: 3px;
 	font-family: 'Courier New', Courier, monospace;
 	font-size: 0.9em;
-	color: teal;
+	color: var(--text-color);
 }
 
 a {
