@@ -1,25 +1,33 @@
 # 3.0.0 - ???
 
 - Refactoring complet, le site est maintenant entièrement codé en Svelte
-- Implémentation de JS routing (chargement initial légèrement plus lent mais navigation plus rapide)
-- Préchargement des liens par hover dessus
-- \+ page 404
-- Le site est désormais responsive (s'affiche correctement même sur téléphone)
+  - JS routing (chargement initial légèrement plus lent mais navigation plus rapide)
+  - Préchargement des liens par hover dessus
+- \+ **themes**
+  - Dark mode
+  - Mode système (light mode ou dark mode en fonction des options du navigateur)
+  - Matrix theme
+- \+ **page 404**
+- Le site est désormais plus joli et responsive (s'affiche correctement même sur téléphone)
 - Changelog
-  - désormais plus joli
+  - Désormais plus joli
 - Fancy Message
-  - rainbow plus fluide
-  - fix: fonctionne maintenant avec les polices avec un espace
+  - Rainbow plus fluide
+  - Fix: fonctionne maintenant avec les polices avec un espace
 - Luciva & dub Tweaks
-  - bouton de téléchargement pointe désormais systématiquement vers la dernière version et indique la version
+  - Bouton de téléchargement pointe désormais systématiquement vers la dernière version et indique la version
 - SoundBoard
   - Possibilité désormais de spammer les boutons pour avoir plusieurs lectures en simultané
 - Marks Calculator
-  - nouvelle interface plus facile d'utilisation
-  - inputs plus indulgents
-  - calcule dynamiquement les notes sans avoir à appuyer sur un bouton
-  - affiche une erreur quand un input est manquant ou incorrect par exemple
-  - affiche un warning quand les inputs sont abbérants
+  - Nouvelle interface plus facile d'utilisation
+  - Inputs plus indulgents
+  - Calcule dynamiquement les notes sans avoir à appuyer sur un bouton
+  - Affiche une erreur quand un input est manquant ou incorrect par exemple
+  - Affiche un warning quand les inputs sont abbérants
+- LetMeSearchThisForYou
+  - Réactif pour marcher sur téléphone
+- Fancy Message
+  - Preview automatique sans avoir à cliquer sur un bouton
 
 # 2.6 - 04/08/25
 
