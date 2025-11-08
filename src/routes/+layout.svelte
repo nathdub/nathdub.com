@@ -51,21 +51,30 @@
 	}
 
 	:global(input) {
-		background: var(--bg-color);
+		background-color: var(--bg-color);
 		color: var(--text-color);
-		padding: 0.5rem;
 		border: 1px solid;
 		border-color: var(--border-color);
-		border-radius: 0.25rem;
-		font-size: 1rem;
 	}
-
+	
+	:global(.text-input input) {
+		padding: 0.5rem;
+		font-size: 1rem;
+		border-radius: 0.25rem;
+	}
+	
 	:global(button) {
 		padding: 0.5rem;
-		border: none;
 		border-radius: 0.25rem;
 		font-size: 1rem;
 		cursor: pointer;
+		background-color: var(--bg-color);
+		color: var(--text-color);
+		border: 0.1rem solid var(--border-color);
+	}
+	
+	:global(button:hover) {
+		background-color: var(--bg-color-2);
 	}
 	
 	:global(a) {
