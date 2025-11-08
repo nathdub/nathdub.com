@@ -56,6 +56,8 @@
 	}
 
 	async function startAnimation() {
+		await new Promise((r) => setTimeout(r, 10)); // Wait 10ms for the navbar to disappear to have correct calculations
+
 		await moveCursor(searchBox);
 		cursorType = 'ibeam';
 
