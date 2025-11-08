@@ -84,4 +84,8 @@
 	:global(a:hover) {
 		color: var(--home-link-hover-color);
 	}
+
+	:global(.no-nav header) {
+		display: none;
+	}
 </style>
