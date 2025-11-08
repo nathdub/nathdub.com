@@ -29,23 +29,14 @@
 
 	input {
 		flex: 1;
-		min-width: 0;
-		padding: 0.5rem;
-		border: 1px solid var(--border-color);
-		border-radius: 0.25rem;
-		font-size: 1rem;
+		min-width: 0;	
 	}
 
 	button {
 		flex-shrink: 0; /* empeche de shrink */
 		min-width: 4rem;
-		padding: 0.5rem;
 		background: var(--red-color);
 		color: var(--text-inv-color);
-		border: none;
-		border-radius: 0.25rem;
-		font-size: 1rem;
-		cursor: pointer;
 	}
 
 	button:hover:not(:disabled) {

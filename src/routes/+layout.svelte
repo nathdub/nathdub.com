@@ -49,4 +49,30 @@
 	main {
 		padding: 0 1rem;
 	}
+
+	:global(input) {
+		background: var(--bg-color);
+		color: var(--text-color);
+		padding: 0.5rem;
+		border: 1px solid;
+		border-color: var(--border-color);
+		border-radius: 0.25rem;
+		font-size: 1rem;
+	}
+
+	:global(button) {
+		padding: 0.5rem;
+		border: none;
+		border-radius: 0.25rem;
+		font-size: 1rem;
+		cursor: pointer;
+	}
+	
+	:global(a) {
+		color: var(--home-link-color);
+	}
+
+	:global(a:hover) {
+		color: var(--home-link-hover-color);
+	}
 </style>

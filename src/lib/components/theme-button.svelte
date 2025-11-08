@@ -5,7 +5,7 @@
 		{ value: 'light', label: 'Light', icon: '☀️' },
 		{ value: 'dark', label: 'Dark', icon: '🌙' },
 		{ value: 'system', label: 'System', icon: '⚙️' },
-		{ value: 'matrix', label: 'Matrix', icon: '🎨' }
+		{ value: 'matrix', label: 'Matrix', icon: '👨🏼‍💻' }
 	];
 
 	let isOpen = $state(false);
@@ -64,6 +64,8 @@
 		align-items: center;
 		justify-content: center;
 		height: 100%;
+		width: 150%;
+		padding: 0;
 	}
 
 	.theme-button:hover {
@@ -98,16 +100,16 @@
 	}
 
 	.dropdown-item.active {
-		background-color: #e3f2fd;
+		background-color: var(--accent-color);
 		color: var(--blue-color);
 	}
 
 	.label {
-		color: #333;
+		color: var(--text-color);
 	}
 
 	.dropdown-item.active .label {
-		color: var(--blue-color);
+		color: var(--nav-text-color);
 		font-weight: 500;
 	}
 

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import ThemeButton from './theme-button.svelte';
+	import Version from './version.svelte';
 </script>
 
 <header>
@@ -10,7 +11,9 @@
 	</nav>
 	<div class="header-right">
 		<ThemeButton />
-		<span class="dub-version">nathdub.com - 3.0.0</span>
+		<span class="dub-version">
+			<Version />
+		</span>
 	</div>
 </header>
 
@@ -28,6 +31,8 @@
 		display: flex;
 		align-items: center;
 		gap: 1rem;
+		flex-shrink: 1;
+		min-width: 0;
 	}
 
 	nav {
@@ -49,13 +54,16 @@
 	.dub-version {
 		color: var(--nav-dub-color);
 		font-family: monospace;
-		white-space: nowrap;
 		font-size: 1rem;
+		display: flex;
+		flex-shrink: 1;
+		min-width: 0;
+		max-width: 100%;
 	}
 
-	@media (max-width: 435px) {
+	/* @media (max-width: 435px) {
 		.dub-version {
-			font-size: 13px
+			font-size: 13px;
 		}
 	}
 
@@ -75,5 +83,5 @@
 		.dub-version {
 			font-size: 10px;
 		}
-	}
+	} */
 </style>
