@@ -7,9 +7,11 @@
   - Permet de fixer le problème que Moodle nous déconnecte parfois et qu'il faille recliquer sur le bouton Log In
   - Pour une expérience optimale, je vous recommende vivement de mettre les cours que vous avez actuellement en favoris et de sélectionner seulement les cours en favoris avec la vue Carte comme sur le screen ci-dessous.
 
+<!--
 <img src="/images/DubTweaks/moodle1.1.png" width="38%"/>
 <img src="/images/DubTweaks/arrow.png" width="9%"/>
 <img src="/images/DubTweaks/moodle1.2.png" width="48%"/>
+-->
 
 
 - Compact Moodle
@@ -17,9 +19,11 @@
   - Permet aussi de bien mieux comprendre l'arborescence des éléments.
   - Je vous conseille un zoom de 80% sur le navigateur en plus pour une expérience encore plus compacte
 
+<!-- 
 <img src="/images/DubTweaks/moodle2.1.png" width="40%"/>
 <img src="/images/DubTweaks/arrow.png" width="10%"/>
 <img src="/images/DubTweaks/moodle2.2.png" width="40%"/>
+-->
 
 
 ### Google
@@ -39,8 +43,10 @@
   - Il peut être intéressant de mettre plusieurs langues dans la config si google s'affiche dans des langues différentes.
   - Par exemple pour la config : Tous, All, Images, Vidéos, Videos, Actualités, News
 
+<!-- 
 <img src="/images/DubTweaks/google2.1.png" width="40%"/>
 <img src="/images/DubTweaks/arrow.png" width="10%"/>
 <img src="/images/DubTweaks/google2.2.png" width="40%"/>
+-->
 
 <style>@import './style.css';</style>
