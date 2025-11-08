@@ -5,7 +5,7 @@
 		<li><a class="home-link" href="SoundBoard/">Sound Board</a></li>
 		<li><a class="home-link" href="Calculator/">Calculator</a></li>
 		<li>
-			<a class="home-link" href="https://fr.wikipedia.org/wiki/Dub_(homonymie)" target="_blank" rel="noopener noreferrer">Follow me on Wikipedia</a>
+			<a class="home-link" href="https://fr.wikipedia.org/wiki/Dub_(homonymie)" rel="noopener noreferrer">Follow me on Wikipedia</a>
 		</li>
 		<li><a class="home-link" href="FancyMessage/">Fancy Message</a></li>
 		<li><a class="home-link" href="LetMeSearchThisForYou/">Let Me Search This For You</a></li>

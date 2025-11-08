@@ -41,8 +41,6 @@
 # 2.3 - 09/07/25
 
 - \+ **Let Me Search This For You**
-- Follow Me On Wikipedia
-  - s'ouvre maintenant dans un nouvel onglet
 - SoundBoard
   - \+ `foutus`, `eh les mecs`, `wenomechainsama`, `door stuck`, `let's go`, `nintendo 64`, `oh la vache`, `ok i pull up`, `wilhelm scream`
 
