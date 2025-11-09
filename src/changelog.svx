@@ -1,8 +1,9 @@
-# 3.0.0 - ???
+# 3.0.0 - 09/11/25
 
 - Refactoring complet, le site est maintenant entièrement codé en Svelte
   - JS routing (chargement initial légèrement plus lent mais navigation plus rapide)
   - Préchargement des liens par hover dessus
+- Le site est désormais Open Source (https://github.com/nathdub/nathdub.com)
 - \+ **themes**
   - Dark mode
   - Mode système (light mode ou dark mode en fonction des options du navigateur)
