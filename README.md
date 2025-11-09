@@ -1,23 +1,37 @@
 # nathdub.com
 
-nathdub's website with random small projects.
+site du dub avec plein de petits projets randoms.
 
-## Developing
+## Développement
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Installer les dépendances avec `npm install`, lancer le serveur de dev avec:
 
 ```sh
 npm run dev
 ```
 
-## Building
+Le site de dev sera accessible sur http://localhost:5173/
 
-To create a production version of your app:
+Pour tester la version de production:
 
 ```sh
 npm run build
+npm run preview
+```
+Le site de prod sera accessible sur http://localhost:4173/
+
+## Déploiement
+
+```sh
+# setup cloudflare tunnel network
+docker network create cloudflare-net
+docker run -d --name cloudflare-tunnel --network cloudflare-net cloudflare/cloudflared:latest tunnel --no-autoupdate run --token TOKEN_TUNNEL_CLOUDFLARE
+
+# run server
+docker-compose up -d
+
+# stop server
+docker-compose down
 ```
 
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Il suffit ensuite sur Cloudflare d'aller dans `Networks > Tunnels > Configure > Published application routes > Add a published application route` et de mettre pour `Service` http://nathdub-website:3000
