@@ -398,8 +398,9 @@
 
 	#canvas {
 		display: flex;
-		height: 500px;
-		width: 500px;
+		width: calc(100% - 1.4rem);
+		max-width: 500px;
+		aspect-ratio: 1;
 		flex-direction: column;
 		padding: 0;
 		background-repeat: no-repeat;
@@ -417,17 +418,20 @@
 		box-sizing: border-box;
 	}
 
-	.range-display {
-		width: 50px;
+	input[type="range"] {
+		width: clamp(80px, 40%, 150px);
 	}
 
 	.controls-container {
 		display: flex;
-		gap: 50px;
-		padding: 1rem;
+		flex-wrap: wrap;
+		gap: clamp(10px, 3vw, 20px);
+		padding: clamp(0.5rem, 2vw, 1rem);
 		border: 0.1rem solid var(--border-color);
 		width: fit-content;
+		max-width: calc(100% - 2rem);
 		margin: 0 auto;
+		font-size: clamp(0.7rem, 2.5vw, 1rem);
 	}
 
 	:global(.rainbow) {

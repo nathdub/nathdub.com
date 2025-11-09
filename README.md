@@ -29,6 +29,8 @@ docker run -d --name cloudflare-tunnel --network cloudflare-net cloudflare/cloud
 
 # run server
 docker-compose up -d
+# rebuild and run server
+docker-compose up -d --build
 
 # stop server
 docker-compose down
