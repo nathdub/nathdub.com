@@ -1,3 +1,8 @@
+# 3.0.1 - ???
+
+- CrazyPain 
+  - Est maintenant responsive sur téléphone
+
 # 3.0.0 - 09/11/25
 
 - Refactoring complet, le site est maintenant entièrement codé en Svelte
@@ -29,6 +34,8 @@
   - Réactif pour marcher sur téléphone
 - Fancy Message
   - Preview automatique sans avoir à cliquer sur un bouton
+- Calculator
+  - Nouvelle interface (boutons)
 - \+ **Cursor Museum**
 
 # 2.6 - 04/08/25
