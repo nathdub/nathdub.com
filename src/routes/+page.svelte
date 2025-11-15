@@ -13,6 +13,7 @@
 		<li><a class="home-link" href="DubTweaks/">dub Tweaks Browser Extension</a></li>
 		<li><a class="home-link" href="Luciva/">Luciva Productivity Browser Extension</a></li>
 		<li><a class="home-link" href="CursorMuseum/">Cursor Museum</a></li>
+		<li><a class="home-link" href="UnitConverter/">Unit Converter</a></li>
 	</ul>
 </div>
 
